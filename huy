@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Bán Hàng</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, nav, section, footer { padding: 20px; }
+    nav { background: #333; color: white; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .hero { background: #f5f5f5; text-align: center; padding: 80px 20px; }
+    .section-title { font-size: 24px; margin-top: 40px; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Cửa Hàng Online</strong></div>
+    <div>
+      <a href="#home">Trang Chủ</a>
+      <a href="#about">Giới Thiệu</a>
+      <a href="#services">Dịch Vụ</a>
+      <a href="#contact">Liên Hệ</a>
+    </div>
+  </nav>  <section id="home" class="hero">
+    <h1>Chào mừng đến với cửa hàng của chúng tôi!</h1>
+    <p>Sản phẩm chất lượng - Dịch vụ uy tín - Giá cả hợp lý</p>
+  </section>  <section id="about">
+    <h2 class="section-title">Giới Thiệu</h2>
+    <p>Chúng tôi là đơn vị chuyên cung cấp các sản phẩm tiêu dùng với cam kết chất lượng và giá cả hợp lý
